@@ -1,0 +1,75 @@
+#titleHead {
+}
+#titleHead h1 {
+	position: absolute;
+	top: 29.282576866764277vw;
+	left: 50%;
+	transform: translateX(-50%);
+	font-size: 5vw;
+	letter-spacing: 1.4641288433382138vw;
+	font-family: sans-serif;
+	z-index: 2;
+	opacity: 0;
+	transition: all 0.7s;
+	color: white;
+}
+#home {
+	width: 100%;
+	justify-content: center;
+	display: flex;
+}
+#homeBox1 {
+	background-image: url(../image/oldDashboard.png);
+}
+#home div {
+	text-align: center;
+	border: 7px solid #ccc;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-color: #ccc;
+	margin: 40px 20px 0px 20px;
+	position: relative;
+	padding: 40px 20px 40px 20px;	
+	width: 30%;
+	padding-top: 19%;
+	transform: translateY(-100px);
+	z-index: 1;
+	transition: all 1s;
+	border-radius: 10px;
+	/*height: 270px;*/
+}
+#home div:hover {
+	box-shadow: 0px 1px 5px black;
+}
+#home div img {
+	width: 50px;
+	position: absolute;
+	left: 35%;
+	transform: translateX(-50%), translateY(-50%);
+	bottom: 10px;
+	margin-bottom: 10px;
+}
+#home div a {
+	padding-left: 10px;
+	position: absolute;
+	bottom: 10px;
+	left: 50%;
+	transform: translateX(-50%);
+	text-decoration: none;
+	color: black;
+	font-family: sans-serif;
+	transition: all 0.3s;
+}
+#home div a:hover {
+	color: tomato;
+}
+#home #homeBox1, #home #homeBox2 {
+	opacity: 0;
+}
+#homeBox2 a img {
+	width: 100%;
+	transform: translate(-30%,-20%);
+}
+#homeBox2 a {
+	font-size: 25px;
+}

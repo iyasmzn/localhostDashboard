@@ -1,0 +1,178 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+header {
+	display: flex;
+	position: fixed;
+	width: 100%;
+	box-sizing: border-box;
+	top: 0;
+	z-index: 3;
+	/*padding: 40px;*/
+	justify-content: space-between;
+}
+header div {
+	/*width: 100%;*/
+}
+#menu {
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	text-align: center;
+	flex-flow: row wrap;
+	/*padding: 40px 0px;*/
+	position: relative;
+	background: rgba(255,255,255,0.5);
+	top: 0;
+	/*justify-content: center;*/
+	/*border: 1px solid black;*/
+}
+#menu:after {
+	content: "";
+	position: absolute;
+	height: 0.29282576866764276vw;
+	width: 100%;
+	background: white;
+	bottom: 0;
+	border-radius: 2px;
+}
+#menu a {
+	text-decoration: none;
+	font-size: small;
+	color: black;
+	font-family: sans-serif;
+	position: relative;
+	width: 16.6666666666666666666666666666%;
+	min-width: 120px;
+	/*height: 30px 0px 20px 0px;*/
+	align-self: center;
+	padding: 2.9282576866764276vw 0px;
+	transition: all 0.3s;
+	/*padding-left: 100px;*/
+	/*padding-right: 100px;*/
+	/*border-left: 1px solid #ccc;	*/
+	/*border: 1px solid black;*/
+}
+#menu a:first-child {
+	background: rgba(0,0,0,1);
+}
+#menu a:hover {
+	background: rgba(255,255,255,0.3);
+}
+#menu a:hover:first-child {
+	color: skyblue;
+	background: rgba(0,0,0,0.5);
+}
+#menu a:hover:nth-child(2) {
+	color: #4766cc;
+}
+#menu a:hover:nth-child(3) {
+	color: #25b7d3;
+}
+#menu a:hover:nth-child(4) {
+	color: #fd4f31;
+}
+#menu a:hover:nth-child(5) {
+	color: #f05133;
+}
+#menu a:hover:last-child {
+	color: darkred;
+}	
+#menu a:after {
+	position: absolute;
+	content: "";
+	width: 0%;
+	height: 0.29282576866764276vw;
+	background: white;
+	bottom: 0px;
+	left: 50%;
+	transform: translateX(-50%);
+	z-index: 2;
+	border-radius: 2px;
+	transition: all 0.4s;
+}
+#menu a:hover:after {
+	background: #ccc;
+	width: 100%;
+}
+#menu a:first-child:hover:after {
+	background: skyblue;
+	width: 100%;
+}
+#menu a:nth-child(2):hover:after {
+	background: #4766cc;
+	width: 100%;
+}
+#menu a:nth-child(3):hover:after {
+	background: #25b7d3;
+	width: 100%;
+}
+#menu a:nth-child(4):hover:after {
+	background: #fd4f31;
+	width: 100%;
+}
+#menu a:nth-child(5):hover:after {
+	background: #f05133;
+	width: 100%;
+}
+#menu a:last-child:hover:after {
+	background: darkred;
+	width: 100%;
+}
+#headerImg {
+	background: url(../image/wallpaper_city.jpg);
+	background-size: cover;
+	/*height:36.6vw;*/
+	height:6.6vw;
+	width: 100%;
+	position: relative;
+	border-bottom: 7px solid black;
+	box-shadow: 0px 3px 4px black;
+	z-index: 2;
+}

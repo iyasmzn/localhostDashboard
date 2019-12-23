@@ -1,0 +1,81 @@
+body {
+	position: relative;
+	z-index: -99;
+	/*border: 1px solid red;*/
+}
+#desIcon {
+	position: absolute;
+	left: 50%;
+	top: 9.880966325036603vw;
+	/*width: 100%;*/
+	/*border: 1px solid black;*/
+	transform: translateX(-50%);
+	z-index: 2;
+	text-align: center;
+	opacity: 0;
+	transition: all 2s;
+}
+#desIcon img {
+	width: 37%;
+}
+#des {
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	position: relative;
+	z-index: -3;
+}
+#des #desBox1{
+	padding: 20px 40px 35px 40px;
+	background: #ccc;
+	border-radius: 0px 0px 10px 10px;
+	opacity: 0;
+	position: relative;
+	transition: all 0.7s;
+	transform: translateY(-90%);
+	text-align: center;
+	/*border: 1px solid black;*/
+}
+#des div a {
+	/*text-transform: uppercase;*/
+	font-size: 40px;
+	font-family: sans-serif;
+	color: #444;
+	transition: 0.7s;
+	text-decoration: none;
+}
+#des div a:after {
+	content: "";
+	background: skyblue;
+	width: 0;
+	height: 7px;
+	position: absolute;
+	bottom: 10px;
+	left: 0;
+	transition: 0.7s;
+	z-index: 2;
+}
+#des div a:before {
+	content: "";
+	background: #fff;
+	width: 100%;
+	height: 7px;
+	position: absolute;
+	bottom: 10px;
+	left: 0;
+}
+#desBox1:hover a{
+	color: #25b7d3;
+	cursor: pointer;
+}
+#desBox1:hover{
+	box-shadow: 0px 3px 4px #444;
+}
+#desBox1:hover a:after{
+	background: #25b7d3;
+	width: 100%;
+}
+#desBox1 img {
+	width: 70%;
+	padding-bottom: 20px;
+}

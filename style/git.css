@@ -1,0 +1,61 @@
+#gitIcon {
+	position: absolute;
+	left: 50%;
+	top: 10.980966325036603vw;
+	/*width: 100%;*/
+	/*border: 1px solid black;*/
+	transform: translateX(-50%);
+	z-index: 2;
+	text-align: center;
+	opacity: 0;
+	transition: all 2s;
+}
+#gitIcon img {
+	width: 27%;
+}
+#git {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
+#git div:hover {
+	box-shadow: 0px 2px 3px #444;
+}
+#git div:hover h1 {
+	color: black;
+}
+#git div {
+	padding: 40px 40px;
+	margin: 0px 10px;
+	text-align: center;
+	background: #ccc;
+	border-radius: 0px 0px 10px 10px;
+	position: relative;
+	transform: translateY(-100px);
+	opacity: 0;
+	transition-duration: 1s;
+	transition-delay: 0.3s;
+	transition-property: transform, opacity;
+}#git div img {
+	width: 75px;
+}
+#git h1 {
+	font-family: sans-serif;
+	transition: all 0.7s;
+	font-size: 40px;
+	padding-bottom: 20px;
+	color: gray;
+}
+#git a {
+	line-height: 30px;
+	font-family: sans-serif;
+	text-decoration: none;
+	color: black;
+	transition: all 0.3s;
+}
+#git a:hover {
+	color: white;
+}
+#gitBox1 {
+
+}

@@ -1,0 +1,23 @@
+footer {
+	width: 100%;
+	margin-top: 7.320644216691069vw;	
+	/*border: 1px solid red;*/
+}
+footer div {
+	/*border: 1px solid red;*/
+	display: flex;
+	background: black;
+	justify-content: space-between;
+	flex-flow: row wrap;
+}
+footer a {
+	text-decoration: none;
+	padding: 2.9282576866764276vw 1.4641288433382138vw;
+	color: white;
+	transition: all 0.3s;
+	font-size: 12px;
+	/*border: 1px solid white;*/
+}
+footer a:hover {
+	color: yellow;
+}
