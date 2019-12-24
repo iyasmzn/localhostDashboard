@@ -145,10 +145,11 @@
 	border: 3px solid white;
 	border-radius: 10px;
 	font-family: sans-serif;
-	text-shadow: 2px 2px 2px black;
+	text-shadow: 2px 2px 2px white;
 	background: rgba(255,255,255,0.5);
 	opacity: 0;
 	transition: all 1s;
 	position: absolute;
 	transform: translateY(-100px);
 }
+

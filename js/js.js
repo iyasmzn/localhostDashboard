@@ -103,8 +103,8 @@ function animateP() {
 	box3.style.opacity 		= "1";
 	box1.style.transform 	= "none";
 	box2.style.transform 	= "none";
-	box2.style.transitionDelay 	= "0.6s";
-	box3.style.transitionDelay 	= "0.3s";
+	box2.style.transition 	= "box-shadow 0.7s,transform 0.7s 0.6s,opacity 0.7s 0.6s";
+	box3.style.transition 	= "box-shadow 0.7s,transform 0.7s 0.3s,opacity 0.7s 0.3s";
 	box3.style.transform 	= "none";
 }
 function animateJav() {
@@ -119,5 +119,5 @@ function animateJav() {
 	box2.style.opacity 		= "1";
 	box1.style.transform 	= "none";
 	box2.style.transform 	= "none";
-	box2.style.transitionDelay 	= "0.3s";
+	box2.style.transition 	= "box-shadow 0.7s,transform 0.7s 0.3s,opacity 0.7s 0.3s";
 }

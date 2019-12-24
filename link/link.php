@@ -1,5 +1,5 @@
-<link rel="icon" type="JPG/png" href="../image/epin.JPG">
-<title>Dashboard | iyasmzn v1.1</title>
+<link rel="icon" href="../image/epin.JPG">
+<title>Dashboard | iyasmzn v4</title>
 <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
 <link rel="stylesheet" type="text/css" href="../style/header.css">
 <link rel="stylesheet" type="text/css" href="../style/footer.css">
