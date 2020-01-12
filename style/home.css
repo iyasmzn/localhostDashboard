@@ -21,6 +21,9 @@
 #homeBox1 {
 	background-image: url(../image/oldDashboard.png);
 }
+#homeBox2 {
+	background-image: url(../image/project.png);
+}
 #home div {
 	text-align: center;
 	border: 7px solid #ccc;
@@ -63,7 +66,7 @@
 #home div a:hover {
 	color: tomato;
 }
-#home #homeBox1, #home #homeBox2 {
+#home #homeBox1, #home #homeBox2, #home #homeBox3 {
 	opacity: 0;
 }
 #homeBox2 a img {
@@ -71,5 +74,12 @@
 	transform: translate(-30%,-20%);
 }
 #homeBox2 a {
+	font-size: 25px;
+}
+#homeBox3 a img {
+	width: 100%;
+	transform: translate(-30%,-20%);
+}
+#homeBox3 a {
 	font-size: 25px;
 }

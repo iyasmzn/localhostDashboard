@@ -24,7 +24,7 @@ body {
 	position: relative;
 	z-index: -3;
 }
-#pro #proBox1, #proBox2, #proBox3 {
+#pro #proBox1, #proBox2, #proBox3, #proBox4 {
 	padding: 20px 40px 35px 40px;
 	background: #ccc;
 	border-radius: 0px 0px 10px 10px;
@@ -107,5 +107,18 @@ body {
 	width: 100%;
 }
 #proBox3:hover{
+	box-shadow: 0px 3px 4px #444;
+}
+#proBox4 img{
+	width: 170px;
+}
+#proBox4:hover a{
+	color: #00a19c;
+}
+#proBox4:hover a:after{
+	background: #00a19c;
+	width: 100%;
+}
+#proBox4:hover{
 	box-shadow: 0px 3px 4px #444;
 }

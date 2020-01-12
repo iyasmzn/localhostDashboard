@@ -33,9 +33,9 @@
 			</a>	
 		</div>
 		<div id="homeBox2">
-				<a href="../../indexOld.php">
+				<a href="../content/project.php">
 					<img src="../image/tasks.png">
-					TUGAS - TUGAS
+					My Project
 			</a>	
 		</div>
 	</div>

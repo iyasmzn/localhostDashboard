@@ -98,14 +98,18 @@ function animateP() {
 	var box1 	= document.getElementById('proBox1');
 	var box2 	= document.getElementById('proBox2');
 	var box3 	= document.getElementById('proBox3');
+	var box4 	= document.getElementById('proBox4');
 	box1.style.opacity 		= "1";
 	box2.style.opacity 		= "1";
 	box3.style.opacity 		= "1";
+	box4.style.opacity 		= "1";
 	box1.style.transform 	= "none";
 	box2.style.transform 	= "none";
-	box2.style.transition 	= "box-shadow 0.7s,transform 0.7s 0.6s,opacity 0.7s 0.6s";
-	box3.style.transition 	= "box-shadow 0.7s,transform 0.7s 0.3s,opacity 0.7s 0.3s";
 	box3.style.transform 	= "none";
+	box4.style.transform 	= "none";
+	box2.style.transition 	= "box-shadow 0.7s,transform 0.7s 0.9s,opacity 0.7s 0.9s";
+	box3.style.transition 	= "box-shadow 0.7s,transform 0.7s 0.3s,opacity 0.7s 0.3s";
+	box4.style.transition 	= "box-shadow 0.7s,transform 0.7s 0.6s,opacity 0.7s 0.6s";
 }
 function animateJav() {
 	var img 	= document.getElementById('javIcon');
