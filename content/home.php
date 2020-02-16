@@ -33,7 +33,7 @@
 			</a>	
 		</div>
 		<div id="homeBox2">
-				<a href="../content/project.php">
+				<a href="../../project/">
 					<img src="../image/tasks.png">
 					My Project
 			</a>	
